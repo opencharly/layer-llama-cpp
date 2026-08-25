@@ -1,3 +1,4 @@
+version: 2026.232.0520
 llama-cpp:
     candy:
         version: 2026.185.1930
