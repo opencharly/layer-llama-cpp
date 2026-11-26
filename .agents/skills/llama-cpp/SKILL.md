@@ -41,9 +41,6 @@ The user-phase tasks run after the pixi environment is established by the parent
 
 - `/charly-languages:python-ml` — via `candy: [llama-cpp]`
 
-## Related Candies
-
-
 ## Used In Boxes
 
 - `/charly-languages:python-ml` (via `python-ml` metalayer)
