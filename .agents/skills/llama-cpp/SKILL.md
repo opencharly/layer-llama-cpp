@@ -40,20 +40,14 @@ The user-phase tasks run after the pixi environment is established by the parent
 ## Used In Candies
 
 - `/charly-languages:python-ml` — via `candy: [llama-cpp]`
-- `/charly-jupyter:jupyter-ml` — via `candy: [llama-cpp, unsloth]`
-- `/charly-jupyter:unsloth-studio` — via `candy: [llama-cpp, unsloth]`
 
 ## Related Candies
 
-- `/charly-jupyter:unsloth` — Fine-tuning (depends on llama.cpp for GGUF conversion)
 
 ## Used In Boxes
 
 - `/charly-languages:python-ml` (via `python-ml` metalayer)
 - `/charly-immich:immich` (via `python-ml` metalayer)
-- `/charly-jupyter:jupyter-ml` (via `jupyter-ml` metalayer)
-- `/charly-jupyter:jupyter-ml-notebook` (via `jupyter-ml` metalayer)
-- `/charly-jupyter:unsloth-studio` (via `unsloth-studio` metalayer)
 
 ## When to Use This Skill
 
