@@ -78,7 +78,7 @@ llama-cpp:
 llama-cpp-skill:
     skill:
         name: llama-cpp
-        family: jupyter
+        family: ollama
         owner: llama-cpp
         description: |-
             llama.cpp prebuilt binaries and GGUF conversion tools.

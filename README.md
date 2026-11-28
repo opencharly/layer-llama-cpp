@@ -47,7 +47,7 @@ my-ml-box:
 
 ## Related
 
-- Owning skill: `/charly-jupyter:llama-cpp` — the binaries, the GGUF conversion
+- Owning skill: `/charly-ollama:llama-cpp` — the binaries, the GGUF conversion
   tools, and the `LLAMA_CPP_PATH` env var.
 - `/charly-languages:python-ml` — composes this candy.
 - `/charly-image:layer` — candy authoring reference.
