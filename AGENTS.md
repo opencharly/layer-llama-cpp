@@ -4,7 +4,7 @@ Standalone candy repo for the `llama-cpp` layer — prebuilt llama.cpp binaries 
 the GGUF conversion tools. The candy lives in `charly.yml` at the repo root: the
 `LLAMA_CPP_PATH` env / `path_append`, the download plan step, the `check:`
 assertions, and the embedded `skill:` entity projected into the marketplace
-corpus as `/charly-jupyter:llama-cpp`.
+corpus as `/charly-ollama:llama-cpp`.
 
 Canonical files:
 
@@ -15,7 +15,7 @@ Canonical files:
 
 ## Load these skills first (R0)
 
-- `/charly-jupyter:llama-cpp` — the owning skill. The binaries, the GGUF
+- `/charly-ollama:llama-cpp` — the owning skill. The binaries, the GGUF
   conversion tools, the `LLAMA_CPP_PATH` env var, and the Tier 1 post-install
   pattern. Load before editing or troubleshooting the layer.
 - `/charly-image:layer` — the candy authoring reference (`charly.yml` schema,
