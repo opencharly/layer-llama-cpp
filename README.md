@@ -49,7 +49,6 @@ my-ml-box:
 
 - Owning skill: `/charly-jupyter:llama-cpp` — the binaries, the GGUF conversion
   tools, and the `LLAMA_CPP_PATH` env var.
-- `/charly-jupyter:unsloth` — fine-tuning; depends on llama.cpp for GGUF conversion.
 - `/charly-languages:python-ml` — composes this candy.
 - `/charly-image:layer` — candy authoring reference.
 - [`opencharly/charly`](https://github.com/opencharly/charly) — the charly CLI and image builder
